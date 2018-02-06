@@ -1,0 +1,140 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #3097d1;
+}
+::-webkit-scrollbar-button {
+    background-color: #fff;height: 0;
+}
+::-webkit-inner-spin-button {
+    background-color: #3097d1;
+}
+::-webkit-outer-spin-button {
+    background-color: #3097d1;
+}
+.file-field{
+    position:relative;
+}
+.file-field .file-path-wrapper {
+    overflow:hidden;
+    padding-left:10px;
+    height:2.5rem;
+}
+.file-field input.file-path {
+    width:100%;
+    height:2.1rem;
+}
+.file-field .btn {
+    float:left;
+}
+.file-field span {
+    cursor:pointer;
+}
+.file-field input[type=file] {
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    margin:0;
+    padding:0;
+    font-size:1px;
+    cursor:pointer;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #95a5a6;
+    font-family: "Helvetica", arial, sans-serif;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+.list-group-item.active {
+    border-color: transparent!important;
+}
+
+a {
+    text-decoration: none!important;
+}
+
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+#videos {
+    overflow-y: auto;
+    height: 268px;
+}
+
+.mce-notification {
+    display: none!important;
+}
+
+#current {
+    overflow-y: auto;
+    height: 250px;
+}
+
+#past {
+    overflow-y: auto;
+    height: 200px;
+}
+
+#delete {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    color: #C00A20;
+}
+
+#delete:hover {
+    cursor: pointer;
+}
+
+.video {
+}
+
+#delete-photo:hover {
+    cursor: pointer;
+}

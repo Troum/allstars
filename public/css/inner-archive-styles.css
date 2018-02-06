@@ -1,0 +1,63 @@
+html.mfp-helper body {
+    overflow: hidden;
+}
+html.mfp-helper .mfp-wrap {
+    overflow-y: auto;
+}
+
+/*******
+
+Inner Archive Slider
+
+*******/
+
+#inner-slider .swiper-pagination,
+#inner-slider .swiper-button-prev,
+#inner-slider .swiper-button-next {
+    display: none;
+}
+
+.page-info {
+    position: absolute;
+    width: 100%;
+    z-index: 100000;
+    bottom: 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.6);
+}
+.page-info h1,
+.page-info h2,
+.page-info h3 {
+    line-height: 1;
+}
+.page-info h2,
+.page-info h3 {
+    margin: 0.87rem 0;
+}
+.page-info h2 {
+    text-align: center;
+}
+.page-info h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.photos {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 40px;
+}
+.photo-wrapper {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+.photo {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
